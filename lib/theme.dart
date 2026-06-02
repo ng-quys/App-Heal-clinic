@@ -1,9 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppColors {
   static const primary = Color(0xFF185FA5);
   static const primaryLight = Color(0xFFE6F1FB);
   static const primaryDark = Color(0xFF0C447C);
+
+  // Premium Gradients
+  static const primaryGradient = LinearGradient(
+    colors: [Color(0xFF0C447C), Color(0xFF185FA5), Color(0xFF3282D6)],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
+  static const primaryGradientSoft = LinearGradient(
+    colors: [Color(0xFF185FA5), Color(0xFF4B9FE3)],
+    begin: Alignment.centerLeft,
+    end: Alignment.centerRight,
+  );
 
   static const success = Color(0xFF3B6D11);
   static const successLight = Color(0xFFEAF3DE);
@@ -15,8 +28,8 @@ class AppColors {
   static const dangerLight = Color(0xFFFCEBEB);
 
   static const surface = Color(0xFFFFFFFF);
-  static const background = Color(0xFFF5F6F8);
-  static const border = Color(0xFFE5E5E5);
+  static const background = Color(0xFFF8F9FA);
+  static const border = Color(0xFFEFEFEF); // Lighter border
 
   static const textPrimary = Color(0xFF1A1A1A);
   static const textSecondary = Color(0xFF6B7280);
@@ -40,26 +53,39 @@ class AppColors {
 
   static Color avatarBg(int index) => avatarColors[index % avatarColors.length];
   static Color avatarText(int index) => avatarTextColors[index % avatarTextColors.length];
+
+  // Premium Shadows
+  static List<BoxShadow> get softShadow => [
+        BoxShadow(
+          color: const Color(0xFF000000).withValues(alpha: 0.04),
+          blurRadius: 16,
+          offset: const Offset(0, 4),
+        ),
+      ];
 }
 
 class AppTheme {
   static ThemeData get light {
-    return ThemeData(
+    final base = ThemeData(
       useMaterial3: true,
       colorScheme: ColorScheme.fromSeed(
         seedColor: AppColors.primary,
         brightness: Brightness.light,
       ),
       scaffoldBackgroundColor: AppColors.background,
-      appBarTheme: const AppBarTheme(
+    );
+
+    return base.copyWith(
+      textTheme: GoogleFonts.interTextTheme(base.textTheme),
+      appBarTheme: AppBarTheme(
         backgroundColor: AppColors.surface,
         foregroundColor: AppColors.textPrimary,
         elevation: 0,
         scrolledUnderElevation: 0,
-        titleTextStyle: TextStyle(
+        titleTextStyle: GoogleFonts.inter(
           color: AppColors.textPrimary,
           fontSize: 17,
-          fontWeight: FontWeight.w500,
+          fontWeight: FontWeight.w600,
         ),
       ),
       cardTheme: CardThemeData(

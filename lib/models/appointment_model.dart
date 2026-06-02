@@ -1,6 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-
-enum AppointmentStatus { pending, confirmed, inProgress, done, cancelled }
+enum AppointmentStatus { pending, confirmed, waiting, inProgress, done, cancelled }
 
 extension AppointmentStatusX on AppointmentStatus {
   String get label {
@@ -9,6 +7,8 @@ extension AppointmentStatusX on AppointmentStatus {
         return 'Chờ xác nhận';
       case AppointmentStatus.confirmed:
         return 'Đã xác nhận';
+      case AppointmentStatus.waiting:
+        return 'Chờ khám';
       case AppointmentStatus.inProgress:
         return 'Đang khám';
       case AppointmentStatus.done:
@@ -19,33 +19,17 @@ extension AppointmentStatusX on AppointmentStatus {
   }
 
   static AppointmentStatus fromString(String value) {
-    switch (value) {
-      case 'confirmed':
-        return AppointmentStatus.confirmed;
-      case 'inProgress':
-        return AppointmentStatus.inProgress;
-      case 'done':
-        return AppointmentStatus.done;
-      case 'cancelled':
-        return AppointmentStatus.cancelled;
-      default:
-        return AppointmentStatus.pending;
-    }
+    final v = value.toLowerCase();
+    if (v.contains('xác nhận') || v.contains('xac nhan') || v.contains('a x')) return AppointmentStatus.confirmed;
+    if (v.contains('chờ khám') || v.contains('cho kh') || v.contains('h kh')) return AppointmentStatus.waiting;
+    if (v.contains('đang khám') || v.contains('ang kh') || v.contains('ng kh')) return AppointmentStatus.inProgress;
+    if (v.contains('đã khám') || v.contains('da kh') || (v.contains('a kh') && !v.contains('ang'))) return AppointmentStatus.done;
+    if (v.contains('đã hủy') || v.contains('da huy') || v.contains('a h')) return AppointmentStatus.cancelled;
+    return AppointmentStatus.pending;
   }
 
   String get value {
-    switch (this) {
-      case AppointmentStatus.pending:
-        return 'pending';
-      case AppointmentStatus.confirmed:
-        return 'confirmed';
-      case AppointmentStatus.inProgress:
-        return 'inProgress';
-      case AppointmentStatus.done:
-        return 'done';
-      case AppointmentStatus.cancelled:
-        return 'cancelled';
-    }
+    return label;
   }
 }
 
@@ -78,17 +62,17 @@ class AppointmentModel {
 
   factory AppointmentModel.fromMap(Map<String, dynamic> map, String id) {
     return AppointmentModel(
-      appointmentId: id,
-      doctorId: map['doctorId'] ?? '',
-      patientId: map['patientId'] ?? '',
-      patientName: map['patientName'] ?? '',
-      scheduledAt: (map['scheduledAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
-      reason: map['reason'] ?? '',
-      status: AppointmentStatusX.fromString(map['status'] ?? 'pending'),
+      appointmentId: map['appointmentId']?.toString() ?? id,
+      doctorId: map['doctorId']?.toString().trim() ?? '',
+      patientId: map['patientId']?.toString().trim() ?? '',
+      patientName: map['patient'] != null ? map['patient']['fullName']?.toString().trim() ?? 'Unknown' : 'Unknown Patient',
+      scheduledAt: DateTime.tryParse(map['appointmentDate']?.toString() ?? '') ?? DateTime.now(),
+      reason: map['note']?.toString() ?? '',
+      status: AppointmentStatusX.fromString(map['status']?.toString() ?? 'pending'),
       queueNumber: map['queueNumber'] as int?,
-      notes: map['notes'] ?? '',
-      createdAt: (map['createdAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
-      updatedAt: (map['updatedAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
+      notes: map['note']?.toString() ?? '',
+      createdAt: DateTime.tryParse(map['createdAt']?.toString() ?? '') ?? DateTime.now(),
+      updatedAt: DateTime.tryParse(map['updateAt']?.toString() ?? '') ?? DateTime.now(),
     );
   }
 
@@ -97,13 +81,13 @@ class AppointmentModel {
       'doctorId': doctorId,
       'patientId': patientId,
       'patientName': patientName,
-      'scheduledAt': Timestamp.fromDate(scheduledAt),
+      'scheduledAt': scheduledAt.toIso8601String(),
       'reason': reason,
       'status': status.value,
       'queueNumber': queueNumber,
       'notes': notes,
-      'createdAt': Timestamp.fromDate(createdAt),
-      'updatedAt': Timestamp.fromDate(updatedAt),
+      'createdAt': createdAt.toIso8601String(),
+      'updatedAt': updatedAt.toIso8601String(),
     };
   }
 

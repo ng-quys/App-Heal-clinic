@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+
 
 class PatientModel {
   final String patientId;
@@ -34,21 +34,26 @@ class PatientModel {
   });
 
   factory PatientModel.fromMap(Map<String, dynamic> map, String id) {
+    List<String> parseStringToList(dynamic value) {
+      if (value == null || value.toString().isEmpty) return [];
+      return value.toString().split(',').map((e) => e.trim()).where((e) => e.isNotEmpty).toList();
+    }
+
     return PatientModel(
-      patientId: id,
-      fullName: map['fullName'] ?? '',
-      dateOfBirth: (map['dateOfBirth'] as Timestamp?)?.toDate(),
-      gender: map['gender'] ?? '',
-      bloodType: map['bloodType'] ?? '',
+      patientId: map['patientId']?.toString().trim() ?? id,
+      fullName: map['fullName']?.toString() ?? '',
+      dateOfBirth: DateTime.tryParse(map['dateOfBirth']?.toString() ?? ''),
+      gender: map['gender']?.toString() ?? '',
+      bloodType: map['bloodType']?.toString().trim() ?? '',
       height: (map['height'] as num?)?.toDouble(),
       weight: (map['weight'] as num?)?.toDouble(),
-      allergies: List<String>.from(map['allergies'] ?? []),
-      chronicDiseases: List<String>.from(map['chronicDiseases'] ?? []),
-      address: map['address'] ?? '',
-      emergencyContactName: map['emergencyContactName'] ?? '',
-      emergencyContactPhone: map['emergencyContactPhone'] ?? '',
-      createdAt: (map['createdAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
-      updatedAt: (map['updatedAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
+      allergies: parseStringToList(map['allergies']),
+      chronicDiseases: parseStringToList(map['chronicDiseases']),
+      address: map['address']?.toString() ?? '',
+      emergencyContactName: '',
+      emergencyContactPhone: map['phone']?.toString().trim() ?? '',
+      createdAt: DateTime.tryParse(map['createdAt']?.toString() ?? '') ?? DateTime.now(),
+      updatedAt: DateTime.tryParse(map['updateAt']?.toString() ?? '') ?? DateTime.now(),
     );
   }
 
@@ -71,3 +76,7 @@ class PatientModel {
     return fullName.isNotEmpty ? fullName[0].toUpperCase() : '?';
   }
 }
+
+
+
+

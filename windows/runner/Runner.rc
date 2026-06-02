@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "projecthealclinic" "\0"
+            VALUE "FileDescription", "benhvien" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "projecthealclinic" "\0"
+            VALUE "InternalName", "benhvien" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "projecthealclinic.exe" "\0"
-            VALUE "ProductName", "projecthealclinic" "\0"
+            VALUE "OriginalFilename", "benhvien.exe" "\0"
+            VALUE "ProductName", "benhvien" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

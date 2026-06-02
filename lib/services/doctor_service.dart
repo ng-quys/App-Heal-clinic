@@ -1,22 +1,41 @@
+import 'dart:convert';
+import 'package:flutter/foundation.dart';
+import 'package:http/http.dart' as http;
 import '../models/doctor_model.dart';
-import '../repositories/doctor_repository.dart';
+import '../constants/api_config.dart';
 
 class DoctorService {
-  final DoctorRepository _doctorRepository;
-
-  DoctorService({DoctorRepository? doctorRepository})
-      : _doctorRepository = doctorRepository ?? DoctorRepository();
+  static const String baseUrl = '${ApiConfig.baseUrl}/Doctor';
 
   Future<DoctorModel?> getDoctorProfile(String uid) async {
-    return await _doctorRepository.getDoctorById(uid);
+    try {
+      final url = Uri.parse('$baseUrl/user/$uid');
+      final response = await http.get(
+        url,
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Tunnel-Skip-AntiPhishing-Page': 'true',
+          'ngrok-skip-browser-warning': 'true'
+        },
+      ).timeout(const Duration(seconds: 10));
+
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> data = jsonDecode(response.body);
+        final doctor = DoctorModel.fromMap(data, uid);
+        return doctor;
+      } else {
+        debugPrint('Failed to load doctor profile: ${response.body}');
+        return null;
+      }
+    } catch (e) {
+      debugPrint('Error fetching doctor profile: $e');
+      return null;
+    }
   }
 
-  Stream<DoctorModel?> watchDoctorProfile(String uid) {
-    return _doctorRepository.watchDoctor(uid);
-  }
-
-  Future<void> toggleAvailability(String uid, bool isAvailable) async {
-    await _doctorRepository.updateAvailability(uid, isAvailable);
+  Stream<DoctorModel?> watchDoctorProfile(String uid) async* {
+    final profile = await getDoctorProfile(uid);
+    yield profile;
   }
 
   Future<void> updateProfile(String uid, {
@@ -29,17 +48,7 @@ class DoctorService {
     String? bio,
     String? avatarUrl,
   }) async {
-    final fields = <String, dynamic>{};
-    if (fullName != null) fields['fullName'] = fullName;
-    if (specialty != null) fields['specialty'] = specialty;
-    if (clinicName != null) fields['clinicName'] = clinicName;
-    if (workStartTime != null) fields['workStartTime'] = workStartTime;
-    if (workEndTime != null) fields['workEndTime'] = workEndTime;
-    if (address != null) fields['address'] = address;
-    if (bio != null) fields['bio'] = bio;
-    if (avatarUrl != null) fields['avatarUrl'] = avatarUrl;
-
-    if (fields.isEmpty) return;
-    await _doctorRepository.updateProfile(uid, fields);
+    // Tạm thời chưa triển khai gọi hàm Update API
+    debugPrint("Call update API for $uid");
   }
 }

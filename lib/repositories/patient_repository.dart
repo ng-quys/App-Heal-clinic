@@ -1,34 +1,34 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'dart:convert';
+import 'package:flutter/foundation.dart';
+import 'package:http/http.dart' as http;
 import '../models/patient_model.dart';
+import '../constants/api_config.dart';
 
 class PatientRepository {
-  final FirebaseFirestore _db = FirebaseFirestore.instance;
+  static const String baseUrl = '${ApiConfig.baseUrl}/Patient';
 
-  CollectionReference get _patients => _db.collection('patients');
+  Future<PatientModel?> getPatientById(String id) async {
+    try {
+      final url = Uri.parse('$baseUrl/$id');
+      final response = await http.get(
+        url,
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Tunnel-Skip-AntiPhishing-Page': 'true',
+          'ngrok-skip-browser-warning': 'true'
+        },
+      ).timeout(const Duration(seconds: 10));
 
-  Future<PatientModel?> getPatientById(String patientId) async {
-    final doc = await _patients.doc(patientId).get();
-    if (!doc.exists) return null;
-    return PatientModel.fromMap(doc.data() as Map<String, dynamic>, doc.id);
-  }
-
-  Future<List<PatientModel>> searchPatients(String query) async {
-    final snap = await _patients
-        .orderBy('fullName')
-        .startAt([query])
-        .endAt(['$query\uf8ff'])
-        .limit(20)
-        .get();
-    return snap.docs
-        .map((doc) =>
-            PatientModel.fromMap(doc.data() as Map<String, dynamic>, doc.id))
-        .toList();
-  }
-
-  Future<List<PatientModel>> getPatientsByIds(List<String> ids) async {
-    if (ids.isEmpty) return [];
-    final futures = ids.map((id) => getPatientById(id));
-    final results = await Future.wait(futures);
-    return results.whereType<PatientModel>().toList();
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> data = jsonDecode(response.body);
+        return PatientModel.fromMap(data, id);
+      } else {
+        debugPrint('Failed to load patient: ${response.body}');
+        return null;
+      }
+    } catch (e) {
+      debugPrint('Error fetching patient: $e');
+      return null;
+    }
   }
 }

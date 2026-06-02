@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+
 
 class DoctorModel {
   final String doctorId;
@@ -31,18 +31,18 @@ class DoctorModel {
 
   factory DoctorModel.fromMap(Map<String, dynamic> map, String id) {
     return DoctorModel(
-      doctorId: id,
-      fullName: map['fullName'] ?? '',
-      specialty: map['specialty'] ?? '',
-      clinicName: map['clinicName'] ?? '',
-      workStartTime: map['workStartTime'] ?? '',
-      workEndTime: map['workEndTime'] ?? '',
-      address: map['address'] ?? '',
-      bio: map['bio'] ?? '',
-      avatarUrl: map['avatarUrl'] ?? '',
-      isAvailable: map['isAvailable'] ?? false,
-      createdAt: (map['createdAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
-      updatedAt: (map['updatedAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
+      doctorId: map['doctorId']?.toString().trim() ?? id,
+      fullName: map['fullName']?.toString().trim() ?? '',
+      specialty: map['specialty'] != null ? map['specialty']['specialtyName']?.toString().trim() ?? '' : '',
+      clinicName: map['clinicName'] ?? 'Phòng khám Đa khoa HealClinic',
+      workStartTime: map['workStartTime']?.toString().trim() ?? '08:00:00',
+      workEndTime: map['workEndTime']?.toString().trim() ?? '17:00:00',
+      address: map['address'] ?? 'Trung tâm Y tế HealClinic',
+      bio: map['bio']?.toString().trim() ?? '',
+      avatarUrl: map['avatarUrl']?.toString().trim() ?? '',
+      isAvailable: map['isAvailable'] ?? true,
+      createdAt: DateTime.tryParse(map['createdAt']?.toString() ?? '') ?? DateTime.now(),
+      updatedAt: DateTime.tryParse(map['updateAt']?.toString() ?? '') ?? DateTime.now(),
     );
   }
 
@@ -58,8 +58,8 @@ class DoctorModel {
       'bio': bio,
       'avatarUrl': avatarUrl,
       'isAvailable': isAvailable,
-      'createdAt': Timestamp.fromDate(createdAt),
-      'updatedAt': Timestamp.fromDate(updatedAt),
+      'createdAt': createdAt.toIso8601String(),
+      'updatedAt': updatedAt.toIso8601String(),
     };
   }
 
@@ -90,3 +90,5 @@ class DoctorModel {
     );
   }
 }
+
+

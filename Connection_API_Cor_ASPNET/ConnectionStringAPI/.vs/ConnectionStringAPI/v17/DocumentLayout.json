@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\chatwithdoctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\chatwithdoctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\resultdb\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\resultdb\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\resultdb\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\resultdb\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\specialtycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\prescriptiondetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\prescriptiondetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\prescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\paymentservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\paymentservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\paymentprescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\paymentprescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\paymentappointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\paymentappointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\messagedetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\messagedetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\resultdb\\messagedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\resultdb\\messagedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\medicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\medicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\resultdb\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\resultdb\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|d:\\hk6\\ltdd\\khamchuabenh_doanhocphan\\connection_api_cor_aspnet\\connectionstringapi\\connectionstringapi\\resultdb\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{918DCF20-5A36-4278-8A45-E3B2362EDF30}|ConnectionStringAPI\\ConnectionStringAPI.csproj|solutionrelative:connectionstringapi\\resultdb\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 424,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\Prescription.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\ResultDB\\Prescription.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\Prescription.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\ResultDB\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:39:05.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:21:29.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Messagedetail.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\Messagedetail.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\ResultDB\\Messagedetail.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\Messagedetail.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\ResultDB\\Messagedetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:07:23.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SpecialtyController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\SpecialtyController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\SpecialtyController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\SpecialtyController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\SpecialtyController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAmwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:44:36.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\ServiceController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:43:49.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PrescriptiondetailController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PrescriptiondetailController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\PrescriptiondetailController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PrescriptiondetailController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\PrescriptiondetailController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAA9wGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:43:22.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PrescriptionController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PrescriptionController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\PrescriptionController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PrescriptionController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\PrescriptionController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:42:47.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentserviceController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PaymentserviceController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\PaymentserviceController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PaymentserviceController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\PaymentserviceController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAiwIYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:42:22.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentprescriptionController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PaymentprescriptionController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\PaymentprescriptionController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PaymentprescriptionController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\PaymentprescriptionController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwH8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:41:56.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentappointmentController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PaymentappointmentController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\PaymentappointmentController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PaymentappointmentController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\PaymentappointmentController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowIQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:41:09.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:40:26.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MessagedetailController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\MessagedetailController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\MessagedetailController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\MessagedetailController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\MessagedetailController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:38:30.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MedicationController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\MedicationController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\MedicationController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\MedicationController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\MedicationController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:37:47.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MedicalRecordController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\MedicalRecordController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\MedicalRecordController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\MedicalRecordController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\MedicalRecordController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:35:41.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\ResultDB\\MedicalRecord.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\MedicalRecord.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\ResultDB\\MedicalRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:35:11.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\AppointmentController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:34:18.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatwithdoctorController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\ChatwithdoctorController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\ChatwithdoctorController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\ChatwithdoctorController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\ChatwithdoctorController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwBkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:33:56.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\Patient.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\ResultDB\\Patient.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\Patient.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\ResultDB\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:18:39.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\Doctor.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\ResultDB\\Doctor.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\ResultDB\\Doctor.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\ResultDB\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:18:26.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T14:16:10.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "ConnectionStringAPI\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\hk6\\LTDD\\KhamChuaBenh_DoAnHocPhan\\Connection_API_Cor_ASPNET\\ConnectionStringAPI\\ConnectionStringAPI\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "ConnectionStringAPI\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T13:53:43.468Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
